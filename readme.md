@@ -1,10 +1,10 @@
-Make sha256 hash from two arguments.
+Hash-based (hmac-sha256) encoding the 'message' with the given 'secret'.
 
-For example:
+**Usage example**
 
 ```
-> sha256 one two
-> 25b6746d5172ed6352966a013d93ac846e1110d5a25e8f183b5931f4688842a1
+> hmac message secret
+> 8b5f48702995c1598c573db1e21866a9b825d4a794d169d7060a03605796360b
 ```
 **Building**
 
